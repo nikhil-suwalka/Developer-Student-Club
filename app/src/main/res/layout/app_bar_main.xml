@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nikhil.salesmanager.MainActivity">
+    tools:context="com.lava.ldc.salesmanager.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -29,6 +29,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="@color/colorPrimary"
-        app:srcCompat="@drawable/ic_plus_math" />
+        app:srcCompat="@drawable/icons8_plus_48px" />
 
 </android.support.design.widget.CoordinatorLayout>
