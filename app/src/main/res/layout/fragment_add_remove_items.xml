@@ -10,9 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        >
+        android:layout_height="match_parent">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -128,13 +126,15 @@
 
             <Spinner
                 android:id="@+id/addCategory"
-                android:layout_width="344dp"
+                android:layout_width="388dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:entries="@array/item_category"
+                android:layout_marginTop="8dp"
                 android:popupBackground="@color/colorPrimary"
+                android:entries="@array/item_category"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
@@ -154,7 +154,7 @@
 
             <Spinner
                 android:id="@+id/removeItem"
-                android:layout_width="344dp"
+                android:layout_width="388dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
                 android:popupBackground="@color/colorPrimary"
@@ -219,7 +219,7 @@
 
             <Spinner
                 android:id="@+id/removeCategory"
-                android:layout_width="344dp"
+                android:layout_width="388dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
