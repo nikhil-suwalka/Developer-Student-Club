@@ -16,6 +16,10 @@
             android:id="@+id/nav_monthlySales"
             android:icon="@android:drawable/ic_menu_recent_history"
             android:title="Monthly Sales" />
+        <item
+            android:id="@+id/nav_topFive"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Top 5" />
     </group>
 
 </menu>
